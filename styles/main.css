@@ -1,26 +1,10 @@
-/* global color variables and font family variables for our page */
+.global-main{
 
-:root {
-  --main-orange: #f36c38;
-  --main-green: #009846;
-  --main-blue: #00a0e3;
-  --main-pink: #e5097f;
-
-  --primary-font:'Amatic SC', cursive;
-  --secondary-font: 'Yomogi', cursive;
 }
-
-html {
-  font-size: 62.5%;
-}
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin:0;
-}
-
-body{
-    font-size: 1.6rem;
-    font-family:var(--secondary-font); 
+.main-intro{
+   min-height: 100vh;
+}  
+.main-intro img{
+    max-width: 100%;
+    max-height: 100%;
 }
