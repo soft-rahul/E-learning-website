@@ -34,7 +34,7 @@
 
 /* main learning */
 .main-learning{
-
+    margin:2rem;
 }
 
 .box-section{
@@ -62,4 +62,16 @@
 }
 .box h2{
     padding-left: 1.5rem;
+}
+
+/* input section  */
+.input-section{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color:var(--main-green);
+}
+.input-section select{
+    color:var(--main-green);
 }
