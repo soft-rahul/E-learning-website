@@ -1,6 +1,6 @@
-.why-asian h2{
-    text-align:center ;
-    color:var(--main-green);
+.why-asian h2 {
+  text-align: center;
+  color: var(--main-green);
 }
 
 .why-images {
@@ -28,8 +28,8 @@
 }
 
 .image div {
-    width:80%;
-    margin:1rem auto;
+  width: 80%;
+  margin: 1rem auto;
   background-color: var(--main-orange);
   color: #fff;
   text-align: center;

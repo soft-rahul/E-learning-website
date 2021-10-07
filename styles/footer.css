@@ -50,37 +50,35 @@ footer {
 .footer__bottom a:hover {
   text-decoration: none;
 }
-.quick-link{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.quick-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
 
 /* style link */
-.style-link{
-    font-family: var(--secondary-font);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width:80%;
-    margin:3rem auto;
+.style-link {
+  font-family: var(--secondary-font);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: 3rem auto;
 }
-.style{
-    height: 4rem;
-    width:33%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.style {
+  height: 4rem;
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.style a{
-    color:var(--main-green);
-    text-transform: uppercase;
-    text-decoration: none;
-
+.style a {
+  color: var(--main-green);
+  text-transform: uppercase;
+  text-decoration: none;
 }
 .style img,
-.img img{
-    max-width: 100%;
-    max-height: 100%;
+.img img {
+  max-width: 100%;
+  max-height: 100%;
 }

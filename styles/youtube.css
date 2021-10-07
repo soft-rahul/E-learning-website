@@ -1,28 +1,24 @@
-.youtube{
+.youtube h2 {
+  text-align: center;
+  color: var(--main-green);
+}
 
+.center {
+  width: 50%;
+  margin: 1rem auto;
 }
-.youtube h2{
-    text-align: center;
-    color:var(--main-green);
+.video iframe {
+  max-width: 100%;
 }
-.video{
+.video.first {
+  background-image: url("/images/bg4.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right top;
 }
-.center{
-    width:50%;
-    margin:1rem auto;
-}
-.video iframe{
-    max-width: 100%;
-}
-.video.first{
-    background-image: url('/images/bg4.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right top;
-}
-.video.second{
-    background-image: url('/images/bg3.png');
-    background-repeat: no-repeat;
-    background-size: 250px;
-    background-position: left bottom;
+.video.second {
+  background-image: url("/images/bg3.png");
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: left bottom;
 }
