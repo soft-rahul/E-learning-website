@@ -56,3 +56,30 @@ footer {
     align-items: center;
 }
 
+
+/* style link */
+.style-link{
+    font-family: var(--secondary-font);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:80%;
+    margin:1rem auto;
+}
+.style{
+    height: 4rem;
+    width:33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.style a{
+    color:var(--main-green);
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.style img{
+    max-width: 100%;
+    max-height: 100%;
+}
