@@ -1,0 +1,10 @@
+.whatsapp-fixed {
+  font-family: var(--primary-font);
+  position: fixed;
+  top: 80%;
+  right: -30px;
+  background-color: var(--main-green);
+  color: #fff;
+  padding: 1rem;
+  transform: rotate(90deg);
+}
